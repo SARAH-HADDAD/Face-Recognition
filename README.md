@@ -22,11 +22,11 @@ Once cloned, you can run the main file main.py using the following command:
 ```
 python main.py
 ```
-The application will start and you will be able to start using face recognition by adding images of people to the face recognition database.
+The application will start and you will be able to start using the Facial recognition system by adding images of people to the database.
 
 ## Internal functioning
 
-When the application starts, it uses MTCNN to detect faces in the images in the face recognition database. The detected faces are then encoded using Facenet to produce a unique vector that represents each person.
+When the application starts, it uses MTCNN to detect faces. The detected faces are then encoded using Facenet to produce a unique vector that represents each person.
 
 When an image is submitted for face recognition, the same face detection and encoding process is performed on the submitted image. The resulting vector is then compared to each vector in the face recognition database to find the closest face.
 
