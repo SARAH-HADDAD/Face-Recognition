@@ -45,6 +45,6 @@ https://www.canva.com/design/DAFVO0BOhDQ/-aJzte6I3DqJtJX14fWbyw/view?utm_content
 ```
   1. HAMZAOUI Thameur
   2. OMARI Hamza
-  3. HADAD SARAH
+  3. HADDAD SARAH
   4. ELFECIH SARAH
 ```
