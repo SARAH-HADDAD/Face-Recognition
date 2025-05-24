@@ -1,6 +1,6 @@
 pygame
 opencv-python
-numpy
+numpy==1.24.4
 mtcnn
 scipy
 tensorflow==2.11.0

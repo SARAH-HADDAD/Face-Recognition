@@ -12,8 +12,8 @@ from scipy.spatial.distance import cosine
 import pickle
 
 
-confidence_t=0.99
-recognition_t=0.5
+confidence_t=0.95
+recognition_t=0.8
 required_size = (160,160)
 
 
@@ -73,7 +73,7 @@ def main_program():
         face_detector = mtcnn.MTCNN()
         encoding_dict = load_pickle(encodings_path)
 
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
 
         while cap.isOpened():
             ret, frame = cap.read()
