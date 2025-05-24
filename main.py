@@ -9,7 +9,6 @@ import mtcnn
 from architecture import *
 from train_v2 import normalize,l2_normalizer
 from scipy.spatial.distance import cosine
-from tensorflow.keras.models import load_model
 import pickle
 
 

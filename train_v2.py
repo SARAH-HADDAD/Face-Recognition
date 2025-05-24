@@ -5,7 +5,6 @@ import mtcnn
 import pickle 
 import numpy as np 
 from sklearn.preprocessing import Normalizer
-from tensorflow.keras.models import load_model
 
 ######pathsandvairables#########
 face_data = 'Faces/'

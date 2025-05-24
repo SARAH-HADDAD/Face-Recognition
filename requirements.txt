@@ -1,0 +1,6 @@
+pygame
+opencv-python
+numpy
+mtcnn
+scipy
+tensorflow==2.11.0
